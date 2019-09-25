@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a25ac8db-6817-4856-80ee-7dbee7b491b2" name="Default" comment="" />
+    <list default="true" id="a25ac8db-6817-4856-80ee-7dbee7b491b2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/redis_test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis_test/hyperloglog_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,6 +110,7 @@
     <SUITE FILE_PATH="coverage/MyTest$2_4.coverage" NAME="2_4 Coverage Results" MODIFIED="1565235880629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/2_字符串和文本" />
     <SUITE FILE_PATH="coverage/MyTest$json.coverage" NAME="json Coverage Results" MODIFIED="1567753567424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
     <SUITE FILE_PATH="coverage/MyTest$1_9.coverage" NAME="1_9 Coverage Results" MODIFIED="1565160166259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/1" />
+    <SUITE FILE_PATH="coverage/MyTest$hyperloglog_test.coverage" NAME="hyperloglog_test Coverage Results" MODIFIED="1569412936116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/redis_test" />
     <SUITE FILE_PATH="coverage/MyTest$1_14.coverage" NAME="1_14 Coverage Results" MODIFIED="1565165604266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/1" />
     <SUITE FILE_PATH="coverage/MyTest$for.coverage" NAME="for Coverage Results" MODIFIED="1563849622085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
   </component>
@@ -129,11 +134,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="二叉树节点.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="二叉树节点.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/算法/二叉树节点.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1972">
-              <caret line="68" column="26" lean-forward="true" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+            <state relative-caret-position="444">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hyperloglog_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/redis_test/hyperloglog_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -158,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/python_cookbook/2_字符串和文本/2_12.py" />
         <option value="$PROJECT_DIR$/python_cookbook/2_字符串和文本/2_13.py" />
         <option value="$PROJECT_DIR$/python_cookbook/2_字符串和文本/2_14.py" />
         <option value="$PROJECT_DIR$/python_cookbook/2_字符串和文本/2_15.py" />
@@ -209,6 +222,7 @@
         <option value="$PROJECT_DIR$/Test/Test.py" />
         <option value="$PROJECT_DIR$/Bingo/获取支付项.py" />
         <option value="$PROJECT_DIR$/算法/二叉树节点.py" />
+        <option value="$PROJECT_DIR$/redis_test/hyperloglog_test.py" />
       </list>
     </option>
   </component>
@@ -255,6 +269,11 @@
               <item name="MyTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyTest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MyTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyTest" type="462c0819:PsiDirectoryNode" />
+              <item name="redis_test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -291,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.二叉树节点">
+  <component name="RunManager" selected="Python.hyperloglog_test">
     <configuration name="二叉树节点 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -325,25 +344,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法/二叉树节点.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="3个水桶等分8升水" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法/3个水桶等分8升水.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -406,20 +406,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="hyperloglog_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/redis_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/redis_test/hyperloglog_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.Test" />
-      <item itemvalue="Python.3个水桶等分8升水" />
       <item itemvalue="Python.add_dict" />
       <item itemvalue="Python.二叉树节点" />
       <item itemvalue="Python.二叉树节点 (1)" />
+      <item itemvalue="Python.hyperloglog_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hyperloglog_test" />
         <item itemvalue="Python.二叉树节点" />
         <item itemvalue="Python.二叉树节点 (1)" />
         <item itemvalue="Python.Test" />
         <item itemvalue="Python.add_dict" />
-        <item itemvalue="Python.3个水桶等分8升水" />
       </list>
     </recent_temporary>
   </component>
@@ -443,7 +462,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25510204" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -475,7 +494,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python_cookbook/2_字符串和文本/2_15.py" />
     <entry file="file://$PROJECT_DIR$/python_cookbook/2_字符串和文本/2_14.py" />
     <entry file="file://$PROJECT_DIR$/python_cookbook/2_字符串和文本/2_16.py" />
     <entry file="file://$PROJECT_DIR$/python_cookbook/3_数字日期和时间/3_1.py" />
@@ -707,8 +725,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/算法/二叉树节点.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="68" column="26" lean-forward="true" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+        <state relative-caret-position="444">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis_test/hyperloglog_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
