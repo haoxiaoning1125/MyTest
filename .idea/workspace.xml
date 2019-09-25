@@ -112,7 +112,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="add_dict.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/算法/add_dict.py">
+        <entry file="file://$PROJECT_DIR$/算法/add_dict.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="841">
               <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
@@ -121,7 +121,7 @@
         </entry>
       </file>
       <file leaf-file-name="Test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/Test/Test.py">
+        <entry file="file://$PROJECT_DIR$/Test/Test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
@@ -130,10 +130,10 @@
         </entry>
       </file>
       <file leaf-file-name="二叉树节点.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code/算法/二叉树节点.py">
+        <entry file="file://$PROJECT_DIR$/算法/二叉树节点.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="1972">
+              <caret line="68" column="26" lean-forward="true" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -268,15 +268,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python_cookbook/1_数据结构和算法" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/venv" />
       <recent name="$PROJECT_DIR$/code" />
       <recent name="$PROJECT_DIR$/Bingo" />
       <recent name="$PROJECT_DIR$/数据结构" />
-      <recent name="$PROJECT_DIR$/python_cookbook/files" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/python_cookbook/1_数据结构和算法" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -438,15 +438,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="806" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25510204" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25510204" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49713194" visible="true" weight="0.2167382" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49713194" visible="true" weight="0.2167382" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -525,10 +526,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/算法/2的整数幂.py">
+    <entry file="file://$PROJECT_DIR$/算法/2的整数幂.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/算法/heap_sort.py">
+    <entry file="file://$PROJECT_DIR$/算法/heap_sort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
@@ -552,7 +553,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/算法/fib.py">
+    <entry file="file://$PROJECT_DIR$/算法/fib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
@@ -594,24 +595,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/设计模式/单例模式.py">
+    <entry file="file://$PROJECT_DIR$/设计模式/单例模式.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1073">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/数据结构/__init__.py">
+    <entry file="file://$PROJECT_DIR$/数据结构/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/数据结构/double_array_trie.py">
+    <entry file="file://$PROJECT_DIR$/数据结构/double_array_trie.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/数据结构/Trie.py">
+    <entry file="file://$PROJECT_DIR$/数据结构/Trie.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1073">
           <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
@@ -655,7 +656,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/算法/binary_search.py">
+    <entry file="file://$PROJECT_DIR$/算法/binary_search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
           <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
@@ -669,21 +670,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/算法/回文字符串.py">
+    <entry file="file://$PROJECT_DIR$/算法/回文字符串.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/算法/3个水桶等分8升水.py">
+    <entry file="file://$PROJECT_DIR$/算法/3个水桶等分8升水.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
           <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/算法/add_dict.py">
+    <entry file="file://$PROJECT_DIR$/算法/add_dict.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="841">
           <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
@@ -697,17 +698,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/Test/Test.py">
+    <entry file="file://$PROJECT_DIR$/Test/Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/算法/二叉树节点.py">
+    <entry file="file://$PROJECT_DIR$/算法/二叉树节点.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="1972">
+          <caret line="68" column="26" lean-forward="true" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
         </state>
       </provider>
     </entry>
