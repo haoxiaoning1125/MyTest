@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a25ac8db-6817-4856-80ee-7dbee7b491b2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/redis_test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis_test/hyperloglog_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -137,7 +135,7 @@
       <file leaf-file-name="二叉树节点.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/算法/二叉树节点.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
+            <state relative-caret-position="899">
               <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
             </state>
           </provider>
@@ -146,8 +144,8 @@
       <file leaf-file-name="hyperloglog_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/redis_test/hyperloglog_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="435">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -235,7 +233,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="806" />
@@ -246,22 +244,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Test1" type="cbb8eebc:String" user="Test1" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Test1" type="cbb8eebc:String" user="Test1" />
-              <item name=".idea" type="cbb8eebc:String" user=".idea" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,6 +255,22 @@
               <item name="MyTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyTest" type="462c0819:PsiDirectoryNode" />
               <item name="redis_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Test1" type="cbb8eebc:String" user="Test1" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Test1" type="cbb8eebc:String" user="Test1" />
+              <item name=".idea" type="cbb8eebc:String" user=".idea" />
             </path>
           </expand>
           <select />
@@ -456,17 +454,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="806" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="806" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49713194" visible="true" weight="0.2167382" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49713194" visible="true" weight="0.21959943" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -509,20 +507,8 @@
     <entry file="file://$PROJECT_DIR$/python_cookbook/3_数字日期和时间/3_15.py" />
     <entry file="file://$PROJECT_DIR$/python_cookbook/3_数字日期和时间/3_16.py" />
     <entry file="file://$PROJECT_DIR$/basic/format.py" />
-    <entry file="file://$PROJECT_DIR$/venv/basic/func_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/basic/format_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1131">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/basic/func_test.py" />
+    <entry file="file://$PROJECT_DIR$/venv/basic/format_test.py" />
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/-1741334898/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -530,20 +516,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/basic/self_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/basic/property_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/basic/self_test.py" />
+    <entry file="file://$PROJECT_DIR$/venv/basic/property_test.py" />
     <entry file="file://$PROJECT_DIR$/算法/2的整数幂.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -554,23 +528,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/basic/metaclass_test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/basic/map_reduce.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/basic/closure_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1196">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/basic/metaclass_test.py" />
+    <entry file="file://$PROJECT_DIR$/venv/basic/map_reduce.py" />
+    <entry file="file://$PROJECT_DIR$/venv/basic/closure_test.py" />
     <entry file="file://$PROJECT_DIR$/算法/fib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -578,41 +538,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/basic/reference_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/basic/decorator_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/basic/decorator_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/basic/find_index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/basic/decorator_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1508">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/basic/reference_test.py" />
+    <entry file="file://$PROJECT_DIR$/venv/basic/decorator_3.py" />
+    <entry file="file://$PROJECT_DIR$/venv/basic/decorator_2.py" />
+    <entry file="file://$PROJECT_DIR$/venv/basic/find_index.py" />
+    <entry file="file://$PROJECT_DIR$/venv/basic/decorator_1.py" />
     <entry file="file://$PROJECT_DIR$/设计模式/单例模式.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1073">
@@ -637,43 +567,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Bingo/Trip/import_trip_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-703" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Bingo/quest_transfer_config_new.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Bingo/Trip/import_trip_config.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Bingo/quest_transfer_config_new.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/json.py" />
-    <entry file="file://$PROJECT_DIR$/venv/basic/json_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/basic/字典键值互换.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Bingo/Pass/import_quest_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/basic/json_test.py" />
+    <entry file="file://$PROJECT_DIR$/venv/basic/字典键值互换.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Bingo/Pass/import_quest_config.py" />
     <entry file="file://$PROJECT_DIR$/算法/binary_search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
@@ -681,13 +583,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/basic/abs_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1537">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/basic/abs_test.py" />
     <entry file="file://$PROJECT_DIR$/算法/回文字符串.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
@@ -709,13 +605,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Bingo/获取支付项.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Bingo/获取支付项.py" />
     <entry file="file://$PROJECT_DIR$/Test/Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -725,15 +615,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/算法/二叉树节点.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
+        <state relative-caret-position="899">
           <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/redis_test/hyperloglog_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="435">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
