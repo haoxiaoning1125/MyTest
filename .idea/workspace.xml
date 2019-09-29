@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a25ac8db-6817-4856-80ee-7dbee7b491b2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/re_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/Tree/tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/Tree/tree.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -101,13 +102,13 @@
     <SUITE FILE_PATH="coverage/MyTest$Trie.coverage" NAME="Trie Coverage Results" MODIFIED="1567492770573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法" />
     <SUITE FILE_PATH="coverage/MyTest$BitTest.coverage" NAME="BitTest Coverage Results" MODIFIED="1561709502943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BitOperation" />
     <SUITE FILE_PATH="coverage/MyTest$decorator_2.coverage" NAME="decorator_2 Coverage Results" MODIFIED="1566543066061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
-    <SUITE FILE_PATH="coverage/MyTest$re_test.coverage" NAME="re_test Coverage Results" MODIFIED="1569726745720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/MyTest$re_test.coverage" NAME="re_test Coverage Results" MODIFIED="1569738866157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/MyTest$decorator.coverage" NAME="decorator Coverage Results" MODIFIED="1566542804898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
     <SUITE FILE_PATH="coverage/MyTest$json_test.coverage" NAME="json_test Coverage Results" MODIFIED="1567754192926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
     <SUITE FILE_PATH="coverage/MyTest$import_trip_config.coverage" NAME="import_trip_config Coverage Results" MODIFIED="1564987908493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trip" />
     <SUITE FILE_PATH="coverage/MyTest$1_19.coverage" NAME="1_19 Coverage Results" MODIFIED="1565179235188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/1_数据结构和算法" />
     <SUITE FILE_PATH="coverage/MyTest$filter.coverage" NAME="filter Coverage Results" MODIFIED="1563867180572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
-    <SUITE FILE_PATH="coverage/MyTest$tree.coverage" NAME="tree Coverage Results" MODIFIED="1569485347001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/Tree" />
+    <SUITE FILE_PATH="coverage/MyTest$tree.coverage" NAME="tree Coverage Results" MODIFIED="1569740335442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/Tree" />
     <SUITE FILE_PATH="coverage/MyTest$2_4.coverage" NAME="2_4 Coverage Results" MODIFIED="1565235880629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/2_字符串和文本" />
     <SUITE FILE_PATH="coverage/MyTest$json.coverage" NAME="json Coverage Results" MODIFIED="1567753567424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
     <SUITE FILE_PATH="coverage/MyTest$1_9.coverage" NAME="1_9 Coverage Results" MODIFIED="1565160166259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/1" />
@@ -126,20 +127,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tree.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tree.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/数据结构/Tree/tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="2877">
+              <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="re_test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="re_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/re_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+            <state relative-caret-position="406">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -212,10 +213,10 @@
         <option value="$PROJECT_DIR$/数据结构/Tree/Node.py" />
         <option value="$PROJECT_DIR$/数据结构/Tree/node.py" />
         <option value="$PROJECT_DIR$/算法/二叉树节点.py" />
-        <option value="$PROJECT_DIR$/数据结构/Tree/tree.py" />
         <option value="$PROJECT_DIR$/Test/Test.py" />
         <option value="$PROJECT_DIR$/BinoParty/获取支付项.py" />
         <option value="$PROJECT_DIR$/Test/re_test.py" />
+        <option value="$PROJECT_DIR$/数据结构/Tree/tree.py" />
       </list>
     </option>
   </component>
@@ -303,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.re_test">
+  <component name="RunManager" selected="Python.tree">
     <configuration name="二叉树节点 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -427,8 +428,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.re_test" />
         <item itemvalue="Python.tree" />
+        <item itemvalue="Python.re_test" />
         <item itemvalue="Python.hyperloglog_test" />
         <item itemvalue="Python.二叉树节点" />
         <item itemvalue="Python.二叉树节点 (1)" />
@@ -455,7 +456,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33527696" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22011662" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -636,17 +637,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/Tree/tree.py">
+    <entry file="file://$PROJECT_DIR$/Test/re_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="406">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/re_test.py">
+    <entry file="file://$PROJECT_DIR$/数据结构/Tree/tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        <state relative-caret-position="2877">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
         </state>
       </provider>
     </entry>

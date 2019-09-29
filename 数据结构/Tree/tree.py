@@ -41,7 +41,7 @@ class Tree:
         return ret
 
     def travel_by_dlr(self):
-        # 前序遍历
+        # 前序遍历, 递归
         def dlr(root, ret):
             if root is None:
                 return
@@ -52,8 +52,24 @@ class Tree:
         dlr(self.root, ret)
         return ret
 
+    def travel_by_dlr_(self):
+        # 前序遍历, 非递归
+        # 右节点先进栈
+        if self.root is None:
+            return []
+        stack = [self.root]
+        ret = []
+        while stack:
+            node = stack.pop()
+            ret.append(node.data)
+            if node.right is not None:
+                stack.append(node.right)
+            if node.left is not None:
+                stack.append(node.left)
+        return ret
+
     def travel_by_ldr(self):
-        # 中序遍历
+        # 中序遍历, 递归
         def ldr(root, ret):
             if root is None:
                 return
@@ -64,8 +80,26 @@ class Tree:
         ldr(self.root, ret)
         return ret
 
+    def travel_by_ldr_(self):
+        # 中序遍历, 非递归
+        # 根节点所有左节点入栈 -> 输出栈顶元素 -> 处理栈顶元素的右子树
+        if self.root is None:
+            return []
+        stack = []
+        node = self.root
+        ret = []
+        while node is not None or stack:
+            while node is not None:
+                stack.append(node)
+                node = node.left
+            if stack:
+                node = stack.pop()
+                ret.append(node.data)
+                node = node.right
+        return ret
+
     def travel_by_lrd(self):
-        # 后序遍历
+        # 后序遍历, 递归
         def lrd(root, ret):
             if root is None:
                 return
@@ -76,12 +110,37 @@ class Tree:
         lrd(self.root, ret)
         return ret
 
+    def travel_by_lrd_(self):
+        # 后序遍历, 非递归
+        # 双栈法
+        if self.root is None:
+            return []
+        stack1 = [self.root]  # 保存树节点
+        ret = []  # 保存后序遍历的结果
+        while stack1:
+            node = stack1.pop()
+            ret.append(node.data)
+            if node.left is not None:
+                stack1.append(node.left)
+            if node.right is not None:
+                stack1.append(node.right)
+        return ret[::-1]
+
 
 if __name__ == '__main__':
     nodes_list = range(1, 10)
     tree = Tree()
     tree.build_tree(nodes_list)
     print '层序遍历: {}'.format(tree.travel_by_lev())
+    print '-' * 35
+
+    print '递归'
     print '前序遍历: {}'.format(tree.travel_by_dlr())
     print '中序遍历: {}'.format(tree.travel_by_ldr())
     print '后序遍历: {}'.format(tree.travel_by_lrd())
+    print '-' * 35
+
+    print '非递归'
+    print '前序遍历: {}'.format(tree.travel_by_dlr_())
+    print '中序遍历: {}'.format(tree.travel_by_ldr_())
+    print '后序遍历: {}'.format(tree.travel_by_lrd_())
