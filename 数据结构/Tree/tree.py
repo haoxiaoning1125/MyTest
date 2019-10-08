@@ -4,8 +4,8 @@ from node import Node
 
 
 class Tree:
-    def __init__(self):
-        self.root = None
+    def __init__(self, root=None):
+        self.root = root
 
     def build_tree(self, nodes_list):
         if nodes_list[0]:
@@ -17,7 +17,8 @@ class Tree:
                 node = nodes[0]
                 node.left = Node(nodes_list[id]) if nodes_list[id] else None
                 nodes.append(node.left)
-                node.right = Node(nodes_list[id+1]) if nodes_list[id+1] and id < len(nodes_list) - 1 else None
+                # len(nodes_list) - 1 在前
+                node.right = Node(nodes_list[id+1]) if id < len(nodes_list) - 1 and nodes_list[id+1] else None
                 nodes.append(node.right)
                 id += 2
                 nodes.pop(0)
