@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a25ac8db-6817-4856-80ee-7dbee7b491b2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/add_dict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/算法/sort/bubble_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/算法/sort/count_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/算法/sort/insert_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/算法/sort/select_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法/sum_is_11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法/who_is_thief.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinoParty/获取支付项.py" beforeDir="false" afterPath="$PROJECT_DIR$/BinoParty/获取支付项.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,6 +73,7 @@
     <SUITE FILE_PATH="coverage/MyTest$memory_test.coverage" NAME="memory_test Coverage Results" MODIFIED="1570587462358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/MyTest$3_15.coverage" NAME="3_15 Coverage Results" MODIFIED="1565318529408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/3_数字日期和时间" />
     <SUITE FILE_PATH="coverage/MyTest$datetime_test.coverage" NAME="datetime_test Coverage Results" MODIFIED="1564040492034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DateTime" />
+    <SUITE FILE_PATH="coverage/MyTest$sum_is_11.coverage" NAME="sum_is_11 Coverage Results" MODIFIED="1571020726054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法" />
     <SUITE FILE_PATH="coverage/MyTest$1_3.coverage" NAME="1.3 Coverage Results" MODIFIED="1565149338427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook" />
     <SUITE FILE_PATH="coverage/MyTest$tree_funcs.coverage" NAME="tree_funcs Coverage Results" MODIFIED="1569810487091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/Tree" />
     <SUITE FILE_PATH="coverage/MyTest$find_index.coverage" NAME="find_index Coverage Results" MODIFIED="1565751255318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
@@ -97,6 +93,7 @@
     <SUITE FILE_PATH="coverage/MyTest$1_6.coverage" NAME="1_6 Coverage Results" MODIFIED="1565156348765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/1" />
     <SUITE FILE_PATH="coverage/MyTest$3_2.coverage" NAME="3_2 Coverage Results" MODIFIED="1565254228155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/3_数字日期和时间" />
     <SUITE FILE_PATH="coverage/MyTest$Test.coverage" NAME="Test Coverage Results" MODIFIED="1570696726494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/MyTest$who_is_thief.coverage" NAME="who_is_thief Coverage Results" MODIFIED="1571021402154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法" />
     <SUITE FILE_PATH="coverage/MyTest$.coverage" NAME="二叉树节点 Coverage Results" MODIFIED="1569409108210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法" />
     <SUITE FILE_PATH="coverage/MyTest$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1567667570002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法" />
     <SUITE FILE_PATH="coverage/MyTest$global_test.coverage" NAME="global_test Coverage Results" MODIFIED="1564385613201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
@@ -131,95 +128,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="re_test_1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/正则/re_test_1.py">
+      <file leaf-file-name="sum_is_11.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/算法/sum_is_11.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quick_sort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/算法/sort/quick_sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bubble_sort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/算法/sort/bubble_sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="select_sort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/算法/sort/select_sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insert_sort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/算法/sort/insert_sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="count_sort.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/算法/sort/count_sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-              <folding>
-                <marker date="1570862885519" expanded="true" signature="54:59" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="获取支付项.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BinoParty/获取支付项.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/Test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_dict.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/add_dict.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="merge_sort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/算法/sort/merge_sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="242">
+              <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -249,8 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/python_cookbook/3_数字日期和时间/3_16.py" />
-        <option value="$PROJECT_DIR$/basic/find_index.py" />
         <option value="$PROJECT_DIR$/basic/format.py" />
         <option value="$PROJECT_DIR$/basic/format_test.py" />
         <option value="$PROJECT_DIR$/basic/func_test.py" />
@@ -300,6 +211,8 @@
         <option value="$PROJECT_DIR$/算法/sort/selection_sort.py" />
         <option value="$PROJECT_DIR$/算法/sort/insert_sort.py" />
         <option value="$PROJECT_DIR$/算法/sort/count_sort.py" />
+        <option value="$PROJECT_DIR$/算法/sum_is_11.py" />
+        <option value="$PROJECT_DIR$/算法/who_is_thief.py" />
       </list>
     </option>
   </component>
@@ -323,6 +236,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Test1" type="cbb8eebc:String" user="Test1" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Test1" type="cbb8eebc:String" user="Test1" />
+              <item name=".idea" type="cbb8eebc:String" user=".idea" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -344,28 +273,6 @@
               <item name="MyTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyTest" type="462c0819:PsiDirectoryNode" />
               <item name="算法" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="算法" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Test1" type="cbb8eebc:String" user="Test1" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Test1" type="cbb8eebc:String" user="Test1" />
-              <item name=".idea" type="cbb8eebc:String" user=".idea" />
             </path>
           </expand>
           <select />
@@ -403,45 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.insert_sort">
-    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/Test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="add_dict" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/add_dict.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.who_is_thief">
     <configuration name="bubble_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -499,6 +368,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="sum_is_11" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法/sum_is_11.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -518,20 +406,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="who_is_thief" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法/who_is_thief.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.Test" />
-      <item itemvalue="Python.add_dict" />
       <item itemvalue="Python.bubble_sort" />
       <item itemvalue="Python.selection_sort" />
       <item itemvalue="Python.insert_sort" />
+      <item itemvalue="Python.sum_is_11" />
+      <item itemvalue="Python.who_is_thief" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.who_is_thief" />
+        <item itemvalue="Python.sum_is_11" />
         <item itemvalue="Python.insert_sort" />
         <item itemvalue="Python.selection_sort" />
         <item itemvalue="Python.bubble_sort" />
-        <item itemvalue="Python.add_dict" />
-        <item itemvalue="Python.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -550,16 +457,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="806" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3090379" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32215744" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49713194" visible="true" weight="0.15236051" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49713194" visible="true" weight="0.15450644" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -587,10 +493,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/basic/property_test.py" />
-    <entry file="file://$PROJECT_DIR$/算法/2的整数幂.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/basic/metaclass_test.py" />
     <entry file="file://$PROJECT_DIR$/venv/basic/map_reduce.py" />
     <entry file="file://$PROJECT_DIR$/venv/basic/closure_test.py" />
@@ -717,9 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="e#16#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -771,46 +670,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/算法/sort/merge_sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
+        <state relative-caret-position="667">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/算法/sort/select_sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
+        <state relative-caret-position="609">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/算法/sort/quick_sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        <state relative-caret-position="261">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/算法/sort/bubble_sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
+        <state relative-caret-position="522">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法/sort/count_sort.py" />
+    <entry file="file://$PROJECT_DIR$/算法/sort/insert_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法/who_is_thief.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/算法/sort/insert_sort.py">
+    <entry file="file://$PROJECT_DIR$/算法/sum_is_11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法/sort/count_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <marker date="1570862885519" expanded="true" signature="54:59" ph="..." />
-          </folding>
+        <state relative-caret-position="242">
+          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
