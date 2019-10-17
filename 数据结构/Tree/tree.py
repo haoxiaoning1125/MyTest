@@ -33,19 +33,20 @@ class Tree:
             ret = []
             nodes = [self.root]
             while nodes:
-                node = nodes[0]
+                node = nodes.pop(0)
+                if node is None:
+                    ret.append(None)
+                    continue
                 ret.append(node.data)
-                if node.left is not None:
-                    nodes.append(node.left)
-                if node.right is not None:
-                    nodes.append(node.right)
-                nodes.pop(0)
+                nodes.append(node.left)
+                nodes.append(node.right)
         return ret
 
     def travel_by_dlr(self):
         # 前序遍历, 递归
         def dlr(root, ret):
             if root is None:
+                # ret.append(None)
                 return
             ret.append(root.data)
             dlr(root.left, ret)
@@ -74,6 +75,7 @@ class Tree:
         # 中序遍历, 递归
         def ldr(root, ret):
             if root is None:
+                # ret.append(None)
                 return
             ldr(root.left, ret)
             ret.append(root.data)
@@ -104,6 +106,7 @@ class Tree:
         # 后序遍历, 递归
         def lrd(root, ret):
             if root is None:
+                # ret.append(None)
                 return
             lrd(root.left, ret)
             lrd(root.right, ret)
@@ -121,7 +124,11 @@ class Tree:
         ret = []  # 保存后序遍历的结果
         while stack1:
             node = stack1.pop()
+            # if node is None:
+            #     continue
             ret.append(node.data)
+            # stack1.append(node.left)
+            # stack1.append(node.right)
             if node.left is not None:
                 stack1.append(node.left)
             if node.right is not None:
@@ -130,7 +137,7 @@ class Tree:
 
 
 if __name__ == '__main__':
-    nodes_list = range(1, 10)
+    nodes_list = [1, None, 2]
     tree = Tree()
     tree.build_tree(nodes_list)
     print '层序遍历: {}'.format(tree.travel_by_lev())
