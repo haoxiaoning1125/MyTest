@@ -48,7 +48,7 @@ class BST(Tree):
 
 
 if __name__ == '__main__':
-    nodes_list = [21, 28, 14, 32, 25, 18, 11, 30, 19, 15, 5, 12, 23, 27, 37]
+    nodes_list = [21, 28, 14, 32, 25, 18, 11, 30, 29, 15, 5, 12, 23, 27, 37]
     bst = BST()
     bst.build_tree(nodes_list)
     print bst.travel_by_lev()
