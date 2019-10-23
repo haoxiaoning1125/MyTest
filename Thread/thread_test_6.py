@@ -1,5 +1,5 @@
 # coding=utf-8
-# 生产者消费者
+# 生产者消费者, 锁
 
 import time
 import threading
@@ -16,11 +16,14 @@ class Producer(threading.Thread):
     def run(self):
         while True:
             self.lock.acquire()
-            pro = random.randint(10, 100)
-            self.queue.append(pro)
-            time.sleep(0.5)
-            self.lock.release()
-            print '{} produce {}, queue: {}'.format(self.name, pro, self.queue)
+            if len(self.queue) < 5:
+                pro = random.randint(10, 100)
+                self.queue.append(pro)
+                time.sleep(0.5)
+                self.lock.release()
+                print '{} produce {}, queue: {}'.format(self.name, pro, self.queue)
+            else:
+                self.lock.release()
 
 
 class Consumer(threading.Thread):
@@ -46,7 +49,7 @@ if __name__ == '__main__':
     queue = []
     lock = threading.Lock()
 
-    pros = [Producer('p1', queue, lock), Producer('p2', queue, lock)]
+    pros = [Producer('p1', queue, lock), Producer('p2', queue, lock), Producer('p3', queue, lock)]
     cons = [Consumer('c1', queue, lock), Consumer('c2', queue, lock)]
 
     for p in pros:
