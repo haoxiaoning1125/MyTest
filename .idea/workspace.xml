@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoTestManager">
+    <enabled-run-configurations>
+      <run-configuration type="tests" name="test_2.py" />
+    </enabled-run-configurations>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a25ac8db-6817-4856-80ee-7dbee7b491b2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Thread/semaphore_test_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/semaphore_test_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thread/evnet_test_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread/thread_test_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/thread_test_6.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,12 +61,14 @@
     <SUITE FILE_PATH="coverage/MyTest$semaphore_test_1.coverage" NAME="semaphore_test_1 Coverage Results" MODIFIED="1571810881900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Thread" />
     <SUITE FILE_PATH="coverage/Test1$DBConnectTest.coverage" NAME="DBConnectTest Coverage Results" MODIFIED="1561104280956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DBConnect" />
     <SUITE FILE_PATH="coverage/MyTest$merge_sort.coverage" NAME="merge_sort Coverage Results" MODIFIED="1570588880736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法/sort" />
+    <SUITE FILE_PATH="coverage/MyTest$t_2.coverage" NAME="t_2 Coverage Results" MODIFIED="1571898320504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Thread" />
     <SUITE FILE_PATH="coverage/MyTest$3_5.coverage" NAME="3_5 Coverage Results" MODIFIED="1565256884181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/3_数字日期和时间" />
     <SUITE FILE_PATH="coverage/MyTest$3_8.coverage" NAME="3_8 Coverage Results" MODIFIED="1565257587054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/3_数字日期和时间" />
     <SUITE FILE_PATH="coverage/MyTest$selection_sort.coverage" NAME="selection_sort Coverage Results" MODIFIED="1570861742112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法/sort" />
     <SUITE FILE_PATH="coverage/MyTest$2_15.coverage" NAME="2_15 Coverage Results" MODIFIED="1565251201047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/2_字符串和文本" />
     <SUITE FILE_PATH="coverage/MyTest$1_15.coverage" NAME="1_15 Coverage Results" MODIFIED="1565166798276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/1_数据结构和算法" />
     <SUITE FILE_PATH="coverage/MyTest$1_18.coverage" NAME="1_18 Coverage Results" MODIFIED="1565179171778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/1_数据结构和算法" />
+    <SUITE FILE_PATH="coverage/MyTest$event_test_1.coverage" NAME="event_test_1 Coverage Results" MODIFIED="1571898620255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Thread" />
     <SUITE FILE_PATH="coverage/MyTest$1_13.coverage" NAME="1_13 Coverage Results" MODIFIED="1565164293328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/1" />
     <SUITE FILE_PATH="coverage/MyTest$1_10.coverage" NAME="1_10 Coverage Results" MODIFIED="1565161374225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/1" />
     <SUITE FILE_PATH="coverage/MyTest$decorator_3.coverage" NAME="decorator_3 Coverage Results" MODIFIED="1566544883138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
@@ -84,6 +89,7 @@
     <SUITE FILE_PATH="coverage/MyTest$1_3.coverage" NAME="1.3 Coverage Results" MODIFIED="1565149338427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook" />
     <SUITE FILE_PATH="coverage/MyTest$tree_funcs.coverage" NAME="tree_funcs Coverage Results" MODIFIED="1569810487091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/Tree" />
     <SUITE FILE_PATH="coverage/MyTest$find_index.coverage" NAME="find_index Coverage Results" MODIFIED="1565751255318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
+    <SUITE FILE_PATH="coverage/MyTest$Twisted_Trial_in_test_2_py.coverage" NAME="Twisted Trial in test_2.py Coverage Results" MODIFIED="1571897540138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Thread" />
     <SUITE FILE_PATH="coverage/MyTest$2_14.coverage" NAME="2_14 Coverage Results" MODIFIED="1565248809863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/2_字符串和文本" />
     <SUITE FILE_PATH="coverage/MyTest$3_9.coverage" NAME="3_9 Coverage Results" MODIFIED="1565264042393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/3_数字日期和时间" />
     <SUITE FILE_PATH="coverage/MyTest$1_1.coverage" NAME="1.1 Coverage Results" MODIFIED="1565142975723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook" />
@@ -137,54 +143,39 @@
     <SUITE FILE_PATH="coverage/MyTest$1_14.coverage" NAME="1_14 Coverage Results" MODIFIED="1565165604266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/1" />
     <SUITE FILE_PATH="coverage/MyTest$for.coverage" NAME="for Coverage Results" MODIFIED="1563849622085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="MyTest" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="thread_test_1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Thread/thread_test_1.py">
+      <file leaf-file-name="semaphore_test_1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Thread/semaphore_test_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="thread_test_2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Thread/thread_test_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="thread_test_3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Thread/thread_test_3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-492">
-              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="thread_test_4.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Thread/thread_test_4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="165">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
-                <element signature="e#56#68#0" expanded="true" />
+                <element signature="e#22#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thread_test_5.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Thread/thread_test_5.py">
+      <file leaf-file-name="semaphore_test_2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Thread/semaphore_test_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            <state relative-caret-position="179">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="evnet_test_1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Thread/evnet_test_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="623">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
               <folding>
-                <element signature="e#16#27#0" expanded="true" />
+                <element signature="e#48#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -194,31 +185,7 @@
         <entry file="file://$PROJECT_DIR$/Thread/thread_test_6.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="58">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#25#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="semaphore_test_1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Thread/semaphore_test_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-              <folding>
-                <element signature="e#22#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="semaphore_test_2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Thread/semaphore_test_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -226,8 +193,8 @@
       <file leaf-file-name="threading.pyi" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/threading.pyi">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2233">
-              <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+            <state relative-caret-position="3683">
+              <caret line="132" column="8" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -262,10 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/basic/decorator.py" />
-        <option value="$PROJECT_DIR$/basic/decorator_2.py" />
-        <option value="$PROJECT_DIR$/basic/decorator3.py" />
-        <option value="$PROJECT_DIR$/basic/decorator_3.py" />
         <option value="$PROJECT_DIR$/basic/decorator_1.py" />
         <option value="$PROJECT_DIR$/设计模式/单例模式.py" />
         <option value="$PROJECT_DIR$/算法/Trie.py" />
@@ -313,6 +276,10 @@
         <option value="$PROJECT_DIR$/Thread/semaphore_test_1.py" />
         <option value="$PROJECT_DIR$/Thread/thread_test_6.py" />
         <option value="$PROJECT_DIR$/Thread/semaphore_test_2.py" />
+        <option value="$PROJECT_DIR$/Thread/event_test_1.py" />
+        <option value="$PROJECT_DIR$/Thread/test_1.py" />
+        <option value="$PROJECT_DIR$/Thread/test_2.py" />
+        <option value="$PROJECT_DIR$/Thread/t_2.py" />
       </list>
     </option>
   </component>
@@ -336,22 +303,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Test1" type="cbb8eebc:String" user="Test1" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Test1" type="cbb8eebc:String" user="Test1" />
-              <item name=".idea" type="cbb8eebc:String" user=".idea" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -373,6 +324,22 @@
               <item name="MyTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyTest" type="462c0819:PsiDirectoryNode" />
               <item name="Thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Test1" type="cbb8eebc:String" user="Test1" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Test1" type="cbb8eebc:String" user="Test1" />
+              <item name=".idea" type="cbb8eebc:String" user=".idea" />
             </path>
           </expand>
           <select />
@@ -410,8 +377,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.semaphore_test_2">
-    <configuration name="semaphore_test_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.event_test_1">
+    <configuration name="event_test_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -424,7 +391,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Thread/semaphore_test_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Thread/evnet_test_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -449,7 +416,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="thread_test_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="t_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -462,7 +429,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Thread/thread_test_5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Thread/t_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -487,39 +454,34 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="thread_test_7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Twisted Trial in /Users/haoxiaoning/PycharmProjects/MyTest/Thread/test_2.py" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
       <module name="MyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Thread" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Thread/thread_test_7.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Thread/test_2.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.thread_test_5" />
       <item itemvalue="Python.thread_test_6" />
-      <item itemvalue="Python.thread_test_7" />
-      <item itemvalue="Python.semaphore_test_1" />
       <item itemvalue="Python.semaphore_test_2" />
+      <item itemvalue="Python.event_test_1" />
+      <item itemvalue="Python tests.Twisted Trial in /Users/haoxiaoning/PycharmProjects/MyTest/Thread/test_2.py" />
+      <item itemvalue="Python.t_2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.event_test_1" />
+        <item itemvalue="Python.t_2" />
+        <item itemvalue="Python tests.Twisted Trial in /Users/haoxiaoning/PycharmProjects/MyTest/Thread/test_2.py" />
         <item itemvalue="Python.semaphore_test_2" />
         <item itemvalue="Python.thread_test_6" />
-        <item itemvalue="Python.semaphore_test_1" />
-        <item itemvalue="Python.thread_test_7" />
-        <item itemvalue="Python.thread_test_5" />
       </list>
     </recent_temporary>
   </component>
@@ -536,24 +498,55 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Twisted_Trial_in_test_2_py - 2019.10.24 at 13h 48m 20s.xml">
+      <configuration name="Twisted Trial in test_2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_test_2_py - 2019.10.24 at 13h 48m 33s.xml">
+      <configuration name="Twisted Trial in test_2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_test_2_py - 2019.10.24 at 13h 48m 57s.xml">
+      <configuration name="Twisted Trial in test_2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_test_2_py - 2019.10.24 at 13h 53m 18s.xml">
+      <configuration name="Twisted Trial in test_2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_test_2_py - 2019.10.24 at 14h 03m 46s.xml">
+      <configuration name="Twisted Trial in test_2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_test_2_py - 2019.10.24 at 14h 03m 57s.xml">
+      <configuration name="Twisted Trial in test_2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_test_2_py - 2019.10.24 at 14h 04m 58s.xml">
+      <configuration name="Twisted Trial in test_2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="test_2_py - 2019.10.24 at 14h 11m 33s.xml">
+      <configuration name="test_2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_test_2_py - 2019.10.24 at 14h 12m 09s.xml">
+      <configuration name="Twisted Trial in test_2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_test_2_py - 2019.10.24 at 14h 12m 20s.xml">
+      <configuration name="Twisted Trial in test_2.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="806" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32944608" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27259475" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46209913" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49713194" visible="true" weight="0.16738197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4937656" visible="true" weight="0.17310444" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.50286806" side_tool="true" weight="0.26466382" />
+      <window_info id="Structure" order="1" sideWeight="0.5062344" side_tool="true" weight="0.17310444" />
+      <window_info id="Favorites" order="2" sideWeight="0.5062344" side_tool="true" weight="0.17310444" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39941692" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -566,13 +559,13 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49713194" visible="true" weight="0.16309012" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49713194" visible="true" weight="0.1695279" />
       <window_info id="Structure" order="1" sideWeight="0.50286806" side_tool="true" weight="0.26466382" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2419825" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27259475" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32944608" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39941692" />
@@ -594,16 +587,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/Bingo/quest_transfer_config_new.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/json.py" />
-    <entry file="file://$PROJECT_DIR$/venv/basic/json_test.py" />
     <entry file="file://$PROJECT_DIR$/venv/basic/字典键值互换.py" />
     <entry file="file://$PROJECT_DIR$/venv/Bingo/Pass/import_quest_config.py" />
     <entry file="file://$PROJECT_DIR$/venv/basic/abs_test.py" />
@@ -805,51 +792,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/threading.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2233">
-          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Thread/thread_test_7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#30#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Thread/thread_test_7.py" />
     <entry file="file://$PROJECT_DIR$/Thread/thread_test_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
+        <state relative-caret-position="87">
           <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Thread/thread_test_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
+        <state relative-caret-position="522">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Thread/thread_test_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-492">
+        <state relative-caret-position="29">
           <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Thread/thread_test_4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
+        <state relative-caret-position="580">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#56#68#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -857,36 +825,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="581">
           <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Thread/thread_test_6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#25#36#0" expanded="true" />
-          </folding>
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/threading.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3683">
+          <caret line="132" column="8" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_trialtest_runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thread/test_2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thread/semaphore_test_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Thread/semaphore_test_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        <state relative-caret-position="165">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="e#22#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Thread/semaphore_test_2.py">
+    <entry file="file://$PROJECT_DIR$/Thread/t_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        <state relative-caret-position="87">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thread/evnet_test_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#48#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
