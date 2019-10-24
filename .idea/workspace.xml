@@ -7,7 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a25ac8db-6817-4856-80ee-7dbee7b491b2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Thread/evnet_test_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据结构/Stack/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据结构/Stack/min_stack.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,6 +31,7 @@
     <SUITE FILE_PATH="coverage/MyTest$2.coverage" NAME="2的整数幂 Coverage Results" MODIFIED="1562324356718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法" />
     <SUITE FILE_PATH="coverage/MyTest$quest_transfer_config_new.coverage" NAME="quest_transfer_config_new Coverage Results" MODIFIED="1567509115658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyTest$search_tree.coverage" NAME="search_tree Coverage Results" MODIFIED="1571284540345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/Tree" />
+    <SUITE FILE_PATH="coverage/MyTest$min_stack.coverage" NAME="min_stack Coverage Results" MODIFIED="1571916512729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/Stack" />
     <SUITE FILE_PATH="coverage/Test1$LambdaTest.coverage" NAME="LambdaTest Coverage Results" MODIFIED="1561549484324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/MyTest$38.coverage" NAME="3个水桶等分8升水 Coverage Results" MODIFIED="1568192476883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法" />
     <SUITE FILE_PATH="coverage/Test1$Bit.coverage" NAME="Bit Coverage Results" MODIFIED="1561434405997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BitOperation" />
@@ -152,7 +154,7 @@
         <entry file="file://$PROJECT_DIR$/Thread/semaphore_test_1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
                 <element signature="e#22#33#0" expanded="true" />
               </folding>
@@ -169,14 +171,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="evnet_test_1.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="evnet_test_1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Thread/evnet_test_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="222">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
               <folding>
                 <element signature="e#48#59#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="min_stack.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/数据结构/Stack/min_stack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-421">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -216,11 +227,14 @@
       <find>search_tree</find>
       <find>lock</find>
       <find>max_thread_num</find>
+      <find>stack</find>
     </findStrings>
     <replaceStrings>
       <replace>ret</replace>
       <replace>bst</replace>
       <replace>MAX_THREAD_NUM</replace>
+      <replace>_min</replace>
+      <replace>_stack</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -229,7 +243,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/basic/decorator_1.py" />
         <option value="$PROJECT_DIR$/设计模式/单例模式.py" />
         <option value="$PROJECT_DIR$/算法/Trie.py" />
         <option value="$PROJECT_DIR$/数据结构/double_array_trie.py" />
@@ -280,6 +293,7 @@
         <option value="$PROJECT_DIR$/Thread/test_1.py" />
         <option value="$PROJECT_DIR$/Thread/test_2.py" />
         <option value="$PROJECT_DIR$/Thread/t_2.py" />
+        <option value="$PROJECT_DIR$/数据结构/Stack/min_stack.py" />
       </list>
     </option>
   </component>
@@ -318,12 +332,13 @@
             <path>
               <item name="MyTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Thread" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
+              <item name="Stack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -377,7 +392,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.event_test_1">
+  <component name="RunManager" selected="Python.min_stack">
     <configuration name="event_test_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -392,6 +407,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Thread/evnet_test_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="min_stack" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构/Stack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构/Stack/min_stack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -435,25 +469,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="thread_test_6" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Thread" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Thread/thread_test_6.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="Twisted Trial in /Users/haoxiaoning/PycharmProjects/MyTest/Thread/test_2.py" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
       <module name="MyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -469,19 +484,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.thread_test_6" />
       <item itemvalue="Python.semaphore_test_2" />
       <item itemvalue="Python.event_test_1" />
       <item itemvalue="Python tests.Twisted Trial in /Users/haoxiaoning/PycharmProjects/MyTest/Thread/test_2.py" />
       <item itemvalue="Python.t_2" />
+      <item itemvalue="Python.min_stack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.min_stack" />
         <item itemvalue="Python.event_test_1" />
         <item itemvalue="Python.t_2" />
         <item itemvalue="Python tests.Twisted Trial in /Users/haoxiaoning/PycharmProjects/MyTest/Thread/test_2.py" />
         <item itemvalue="Python.semaphore_test_2" />
-        <item itemvalue="Python.thread_test_6" />
       </list>
     </recent_temporary>
   </component>
@@ -538,9 +553,9 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46209913" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31924197" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4937656" visible="true" weight="0.17310444" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4937656" visible="true" weight="0.17310444" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -591,7 +606,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/basic/字典键值互换.py" />
     <entry file="file://$PROJECT_DIR$/venv/Bingo/Pass/import_quest_config.py" />
     <entry file="file://$PROJECT_DIR$/venv/basic/abs_test.py" />
     <entry file="file://$PROJECT_DIR$/算法/回文字符串.py">
@@ -862,7 +876,7 @@
     <entry file="file://$PROJECT_DIR$/Thread/semaphore_test_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="e#22#33#0" expanded="true" />
           </folding>
@@ -878,11 +892,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Thread/evnet_test_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="222">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
           <folding>
             <element signature="e#48#59#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/Stack/min_stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-421">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
         </state>
       </provider>
     </entry>
