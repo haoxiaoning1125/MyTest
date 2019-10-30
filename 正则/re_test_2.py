@@ -20,7 +20,6 @@ if __name__ == '__main__':
     s = 'This is the first line.\nThis is the second line.\nThis is the third line.'
     q = re.match(r'This.*line.', s, flags=re.DOTALL)
     print q.group(0)
-    
 
     # p = re.compile('.at')
     # print re.findall(p, s, re.MULTILINE)
