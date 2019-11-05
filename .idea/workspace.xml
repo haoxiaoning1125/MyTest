@@ -92,6 +92,7 @@
     <SUITE FILE_PATH="coverage/MyTest$find_index.coverage" NAME="find_index Coverage Results" MODIFIED="1565751255318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
     <SUITE FILE_PATH="coverage/MyTest$Twisted_Trial_in_test_2_py.coverage" NAME="Twisted Trial in test_2.py Coverage Results" MODIFIED="1571897540138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Thread" />
     <SUITE FILE_PATH="coverage/MyTest$2_14.coverage" NAME="2_14 Coverage Results" MODIFIED="1565248809863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/2_字符串和文本" />
+    <SUITE FILE_PATH="coverage/MyTest$is____test.coverage" NAME="is_==_test Coverage Results" MODIFIED="1572943527792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/MyTest$re_test_2__1_.coverage" NAME="re_test_2 (1) Coverage Results" MODIFIED="1572342561445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/正则" />
     <SUITE FILE_PATH="coverage/MyTest$3_9.coverage" NAME="3_9 Coverage Results" MODIFIED="1565264042393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/3_数字日期和时间" />
     <SUITE FILE_PATH="coverage/MyTest$1_1.coverage" NAME="1.1 Coverage Results" MODIFIED="1565142975723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook" />
@@ -380,7 +381,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.hasattr_test">
+  <component name="RunManager" selected="Python.is_==_test">
     <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -419,6 +420,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="is_==_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/is_==_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="re_test_2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -433,25 +453,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/正则/re_test_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="re_test_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/正则" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/正则/re_test_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -478,18 +479,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.Test" />
-      <item itemvalue="Python.re_test_2" />
       <item itemvalue="Python.re_test_2 (1)" />
       <item itemvalue="Python.re_test_3" />
       <item itemvalue="Python.hasattr_test" />
+      <item itemvalue="Python.is_==_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.is_==_test" />
         <item itemvalue="Python.hasattr_test" />
         <item itemvalue="Python.re_test_3" />
         <item itemvalue="Python.Test" />
         <item itemvalue="Python.re_test_2 (1)" />
-        <item itemvalue="Python.re_test_2" />
       </list>
     </recent_temporary>
   </component>
