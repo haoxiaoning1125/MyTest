@@ -7,8 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a25ac8db-6817-4856-80ee-7dbee7b491b2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/PythonTest/CollectionTest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonTest/CollectionTest/counter_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonTest/CollectionTest/defaultdict_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonTest/CollectionTest/deque_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonTest/CollectionTest/named_tuple_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonTest/CollectionTest/ordereddict_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonTest/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/is_==_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/is_==_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,6 +36,7 @@
     <SUITE FILE_PATH="coverage/MyTest$2.coverage" NAME="2的整数幂 Coverage Results" MODIFIED="1562324356718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法" />
     <SUITE FILE_PATH="coverage/MyTest$quest_transfer_config_new.coverage" NAME="quest_transfer_config_new Coverage Results" MODIFIED="1567509115658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyTest$search_tree.coverage" NAME="search_tree Coverage Results" MODIFIED="1571284540345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/Tree" />
+    <SUITE FILE_PATH="coverage/MyTest$ordereddict_test.coverage" NAME="ordereddict_test Coverage Results" MODIFIED="1573196539362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/CollectionTest" />
     <SUITE FILE_PATH="coverage/MyTest$min_stack.coverage" NAME="min_stack Coverage Results" MODIFIED="1571973819527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/Stack" />
     <SUITE FILE_PATH="coverage/Test1$LambdaTest.coverage" NAME="LambdaTest Coverage Results" MODIFIED="1561549484324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/MyTest$38.coverage" NAME="3个水桶等分8升水 Coverage Results" MODIFIED="1568192476883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法" />
@@ -55,6 +62,7 @@
     <SUITE FILE_PATH="coverage/Test1$RandomTest.coverage" NAME="RandomTest Coverage Results" MODIFIED="1561517441835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/MyTest$filter_test.coverage" NAME="filter_test Coverage Results" MODIFIED="1566525970085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
     <SUITE FILE_PATH="coverage/MyTest$thread_test_5.coverage" NAME="thread_test_5 Coverage Results" MODIFIED="1571727395127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Thread" />
+    <SUITE FILE_PATH="coverage/MyTest$named_tuple_test.coverage" NAME="named_tuple_test Coverage Results" MODIFIED="1573193347344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest" />
     <SUITE FILE_PATH="coverage/MyTest$3_12.coverage" NAME="3_12 Coverage Results" MODIFIED="1565316610264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/3_数字日期和时间" />
     <SUITE FILE_PATH="coverage/MyTest$generator.coverage" NAME="generator Coverage Results" MODIFIED="1563859945089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
     <SUITE FILE_PATH="coverage/MyTest$1_17.coverage" NAME="1_17 Coverage Results" MODIFIED="1565172082402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/1_数据结构和算法" />
@@ -85,6 +93,7 @@
     <SUITE FILE_PATH="coverage/MyTest$1_8.coverage" NAME="1_8 Coverage Results" MODIFIED="1565158724410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/1" />
     <SUITE FILE_PATH="coverage/MyTest$2_3.coverage" NAME="2_3 Coverage Results" MODIFIED="1565232773394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/2_字符串和文本" />
     <SUITE FILE_PATH="coverage/MyTest$memory_test.coverage" NAME="memory_test Coverage Results" MODIFIED="1570587462358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/MyTest$buy.coverage" NAME="buy Coverage Results" MODIFIED="1573184107975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
     <SUITE FILE_PATH="coverage/MyTest$3_15.coverage" NAME="3_15 Coverage Results" MODIFIED="1565318529408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/3_数字日期和时间" />
     <SUITE FILE_PATH="coverage/MyTest$datetime_test.coverage" NAME="datetime_test Coverage Results" MODIFIED="1564040492034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DateTime" />
     <SUITE FILE_PATH="coverage/MyTest$sum_is_11.coverage" NAME="sum_is_11 Coverage Results" MODIFIED="1571020726054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法" />
@@ -97,6 +106,7 @@
     <SUITE FILE_PATH="coverage/MyTest$re_test_2__1_.coverage" NAME="re_test_2 (1) Coverage Results" MODIFIED="1572342561445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/正则" />
     <SUITE FILE_PATH="coverage/MyTest$3_9.coverage" NAME="3_9 Coverage Results" MODIFIED="1565264042393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/3_数字日期和时间" />
     <SUITE FILE_PATH="coverage/MyTest$1_1.coverage" NAME="1.1 Coverage Results" MODIFIED="1565142975723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook" />
+    <SUITE FILE_PATH="coverage/MyTest$counter_test.coverage" NAME="counter_test Coverage Results" MODIFIED="1573196865053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/CollectionTest" />
     <SUITE FILE_PATH="coverage/MyTest$3_3.coverage" NAME="3_3 Coverage Results" MODIFIED="1565255050334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/3_数字日期和时间" />
     <SUITE FILE_PATH="coverage/MyTest$2_5.coverage" NAME="2_5 Coverage Results" MODIFIED="1565242926078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/2_字符串和文本" />
     <SUITE FILE_PATH="coverage/MyTest$1_7.coverage" NAME="1_7 Coverage Results" MODIFIED="1565156678466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/1" />
@@ -111,6 +121,7 @@
     <SUITE FILE_PATH="coverage/MyTest$import_quest_config.coverage" NAME="import_quest_config Coverage Results" MODIFIED="1567563707008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bingo/Pass" />
     <SUITE FILE_PATH="coverage/MyTest$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1570525632216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法/sort" />
     <SUITE FILE_PATH="coverage/MyTest$1_6.coverage" NAME="1_6 Coverage Results" MODIFIED="1565156348765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/1" />
+    <SUITE FILE_PATH="coverage/MyTest$deque_test.coverage" NAME="deque_test Coverage Results" MODIFIED="1573195567974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/CollectionTest" />
     <SUITE FILE_PATH="coverage/MyTest$re_test_3.coverage" NAME="re_test_3 Coverage Results" MODIFIED="1572402404479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/正则" />
     <SUITE FILE_PATH="coverage/MyTest$3_2.coverage" NAME="3_2 Coverage Results" MODIFIED="1565254228155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook/3_数字日期和时间" />
     <SUITE FILE_PATH="coverage/MyTest$who_is_thief.coverage" NAME="who_is_thief Coverage Results" MODIFIED="1571021402154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法" />
@@ -124,6 +135,7 @@
     <SUITE FILE_PATH="coverage/MyTest$thread_test_6.coverage" NAME="thread_test_6 Coverage Results" MODIFIED="1571811235313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Thread" />
     <SUITE FILE_PATH="coverage/MyTest$1_2.coverage" NAME="1.2 Coverage Results" MODIFIED="1565143651833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_cookbook" />
     <SUITE FILE_PATH="coverage/MyTest$insert_sort.coverage" NAME="insert_sort Coverage Results" MODIFIED="1570862776873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法/sort" />
+    <SUITE FILE_PATH="coverage/MyTest$defaultdict_test.coverage" NAME="defaultdict_test Coverage Results" MODIFIED="1573195991343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonTest/CollectionTest" />
     <SUITE FILE_PATH="coverage/MyTest$bit_to_list.coverage" NAME="bit_to_list Coverage Results" MODIFIED="1562673318083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法" />
     <SUITE FILE_PATH="coverage/MyTest$add_dict.coverage" NAME="add_dict Coverage Results" MODIFIED="1570696893401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/MyTest$Round.coverage" NAME="Round Coverage Results" MODIFIED="1562901212896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pass" />
@@ -155,65 +167,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/Test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="re_test_2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/正则/re_test_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="re_test_3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/正则/re_test_3.py">
+      <file leaf-file-name="defaultdict_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonTest/CollectionTest/defaultdict_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="464">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hasattr_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/hasattr_test.py">
+      <file leaf-file-name="ordereddict_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonTest/CollectionTest/ordereddict_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="319">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="is_==_test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Test/is_==_test.py">
+      <file leaf-file-name="counter_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PythonTest/CollectionTest/counter_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="re_test_1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/正则/re_test_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1102">
-              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="min_stack.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据结构/Stack/min_stack.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            <state relative-caret-position="87">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -237,6 +213,7 @@
       <find>max_thread_num</find>
       <find>stack</find>
       <find>&quot;</find>
+      <find>isdigit</find>
     </findStrings>
     <replaceStrings>
       <replace>ret</replace>
@@ -253,13 +230,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/算法/binary_search.py" />
-        <option value="$PROJECT_DIR$/basic/json.py" />
-        <option value="$PROJECT_DIR$/basic/json_test.py" />
-        <option value="$PROJECT_DIR$/basic/字典键值互换.py" />
-        <option value="$PROJECT_DIR$/basic/abs_test.py" />
-        <option value="$PROJECT_DIR$/算法/3个水桶等分8升水.py" />
-        <option value="$PROJECT_DIR$/算法/回文字符串.py" />
         <option value="$PROJECT_DIR$/算法/add_dict.py" />
         <option value="$PROJECT_DIR$/Bingo/获取支付项.py" />
         <option value="$PROJECT_DIR$/redis_test/hyperloglog_test.py" />
@@ -304,6 +274,13 @@
         <option value="$PROJECT_DIR$/正则/re_test_3.py" />
         <option value="$PROJECT_DIR$/Test/hasattr_test.py" />
         <option value="$PROJECT_DIR$/Test/is_==_test.py" />
+        <option value="$USER_HOME$/Desktop/buy.py" />
+        <option value="$PROJECT_DIR$/PythonTest/named_tuple_test.py" />
+        <option value="$PROJECT_DIR$/PythonTest/CollectionTest/named_tuple_test.py" />
+        <option value="$PROJECT_DIR$/PythonTest/CollectionTest/deque_test.py" />
+        <option value="$PROJECT_DIR$/PythonTest/CollectionTest/defaultdict_test.py" />
+        <option value="$PROJECT_DIR$/PythonTest/CollectionTest/ordereddict_test.py" />
+        <option value="$PROJECT_DIR$/PythonTest/CollectionTest/counter_test.py" />
       </list>
     </option>
   </component>
@@ -337,7 +314,13 @@
             <path>
               <item name="MyTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyTest" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonTest" type="462c0819:PsiDirectoryNode" />
+              <item name="CollectionTest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -368,15 +351,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/python_cookbook/1_数据结构和算法" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PythonTest/CollectionTest" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/venv" />
       <recent name="$PROJECT_DIR$/code" />
       <recent name="$PROJECT_DIR$/Bingo" />
-      <recent name="$PROJECT_DIR$/数据结构" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python_cookbook/1_数据结构和算法" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -391,8 +374,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.is_==_test">
-    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.counter_test">
+    <configuration name="counter_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -400,18 +383,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTest/CollectionTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTest/CollectionTest/counter_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="hasattr_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="defaultdict_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -419,18 +402,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTest/CollectionTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/hasattr_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTest/CollectionTest/defaultdict_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="is_==_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="deque_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -438,18 +421,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTest/CollectionTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/is_==_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTest/CollectionTest/deque_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="re_test_2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="named_tuple_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -457,18 +440,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/正则" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/正则/re_test_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTest/CollectionTest/named_tuple_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="re_test_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ordereddict_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -476,31 +459,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/正则" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTest/CollectionTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/正则/re_test_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTest/CollectionTest/ordereddict_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.Test" />
-      <item itemvalue="Python.re_test_2 (1)" />
-      <item itemvalue="Python.re_test_3" />
-      <item itemvalue="Python.hasattr_test" />
-      <item itemvalue="Python.is_==_test" />
+      <item itemvalue="Python.named_tuple_test" />
+      <item itemvalue="Python.deque_test" />
+      <item itemvalue="Python.defaultdict_test" />
+      <item itemvalue="Python.ordereddict_test" />
+      <item itemvalue="Python.counter_test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.is_==_test" />
-        <item itemvalue="Python.hasattr_test" />
-        <item itemvalue="Python.re_test_3" />
-        <item itemvalue="Python.Test" />
-        <item itemvalue="Python.re_test_2 (1)" />
+        <item itemvalue="Python.counter_test" />
+        <item itemvalue="Python.ordereddict_test" />
+        <item itemvalue="Python.defaultdict_test" />
+        <item itemvalue="Python.deque_test" />
+        <item itemvalue="Python.named_tuple_test" />
       </list>
     </recent_temporary>
   </component>
@@ -556,11 +539,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32944608" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2696793" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2638484" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4937656" visible="true" weight="0.19527897" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4937656" visible="true" weight="0.20100144" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -607,47 +590,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/算法/二叉树节点.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法/binary_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法/bit_to_list.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法/fib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/Tree/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/re_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/InnerFun.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据结构/Tree/tree_funcs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
@@ -902,6 +848,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/-1247972723/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3328">
+          <caret line="4599" column="20" selection-start-line="4599" selection-start-column="20" selection-end-line="4599" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/buy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/is_==_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Test/hasattr_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -909,10 +876,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/is_==_test.py">
+    <entry file="file://$PROJECT_DIR$/PythonTest/CollectionTest/deque_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="725">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTest/CollectionTest/named_tuple_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTest/CollectionTest/defaultdict_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTest/CollectionTest/ordereddict_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTest/CollectionTest/counter_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
