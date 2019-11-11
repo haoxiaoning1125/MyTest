@@ -6,9 +6,11 @@
 
 import random
 
+
 def judge(num):
     # 判断2的整数幂
     return num & (num-1) == 0
+
 
 def one_count(num):
     # 2进制中1的个数
@@ -18,9 +20,11 @@ def one_count(num):
         num=num&(num-1)
     return count
 
+
 def bit_change_count(a,b):
     # 把数a转成数b，需要改变多少二进制位
     return one_count(a^b)
+
 
 if __name__ == '__main__':
     # for i in range(1,20):

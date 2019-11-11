@@ -1,5 +1,6 @@
 import math
 
+
 def bits_to_list(data):
     length=int(math.log(data,2))+1
     length=len(bin(data).replace('0b',''))
@@ -13,6 +14,7 @@ def bits_to_list(data):
             ret.append(0)
         probe >>= 1
     return ret
+
 
 if __name__ == '__main__':
     print(bits_to_list(0b000101001))

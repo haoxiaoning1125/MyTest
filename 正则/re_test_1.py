@@ -10,6 +10,7 @@ if __name__ == '__main__':
     print [c for c in clist if re.match('^-?[^0-9]+$', c)]
 
     clist = ['a.', 'aa', 'ab']
+    print [c for c in clist if re.match('^a\.$', c)]
     print [c for c in clist if re.match('^a[.]$', c)]
     print [c for c in clist if re.match('^a.$', c)]
 
@@ -24,6 +25,7 @@ if __name__ == '__main__':
     clist = 'The fat cat sat on the mat.'.split(' ')
     print [c for c in clist if re.match('(f|c|m)at\.', c)]
 
+    # \  |  转义
     # .  |  除换行符外的所有字符
     # \w |  匹配所有字母字符, 等同于[a-zA-Z0-9_]
     # \W |  匹配所有非字母字符, 等同于[^\w]
