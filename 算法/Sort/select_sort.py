@@ -1,8 +1,10 @@
 # coding=utf-8
 
 import random
+from Decorator import time_of
 
 
+@time_of(parastate=0)
 def selection_sort(array):
     for i in range(len(array) - 1):
         min_index = i
