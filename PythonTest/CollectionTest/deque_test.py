@@ -1,5 +1,6 @@
 # coding=utf-8
 # 双向列表, 高效实现插入和删除操作
+# 比操作list快
 
 from collections import deque
 
