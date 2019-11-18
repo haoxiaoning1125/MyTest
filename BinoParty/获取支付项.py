@@ -6,6 +6,6 @@ x = [item for item in items if item['identifier'] == itemid]
 
 for item in items:
     x = item['identifier'].split('.')[-1]
-    if re.match('smellsale_2', x):
-        print x
+    if re.match('choice_sale_', x):
+        print item
 
