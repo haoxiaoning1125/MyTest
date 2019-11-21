@@ -22,7 +22,7 @@ def time_of(parastate=0):
     return inner1
 
 
-@time_of(parastate=1)
+@time_of(parastate=0)
 def add_(a, b):
     time.sleep(0.2)
     return a + b
