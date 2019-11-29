@@ -50,4 +50,5 @@ if __name__ == '__main__':
     func_names = ['func1', 'func2', 'func3', 'func4']
     for f_name in func_names:
         eval(f_name)()
+        # f_name()
         print '-' * 20
