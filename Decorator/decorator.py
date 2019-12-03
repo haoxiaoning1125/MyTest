@@ -5,6 +5,16 @@
 import time
 
 
+def time_of_(func):
+    def inner(*args, **kwargs):
+        start = time.time()
+        ret = func(*args, **kwargs)
+        end = time.time()
+        print 'time used: {}'.format(end - start)
+        return ret
+    return inner
+
+
 def time_of(parastate=0):
     def inner1(func):
         def inner2(*args, **kwargs):
