@@ -51,3 +51,17 @@ if __name__ == '__main__':
     it = iter(li)
     a = np.fromiter(it, dtype=np.int, count=5)  # count: 读取多少数据, 默认为-1, 全部读取
     print a
+    print '-' * 20
+
+    # 从数值范围创建数组
+    # numpy.arange
+    a = np.arange(start=0, stop=10, step=2, dtype=np.int)
+    print a
+    a = np.arange(0, 10, 2, np.float64)
+    print a
+    print '-' * 20
+    # numpy.linspace, 创建等差数列一维数组
+    a = np.linspace(1, 10, 5)
+    print a
+    print '-' * 20
+    # numpy.logspace, 创建等比数列一维数组
