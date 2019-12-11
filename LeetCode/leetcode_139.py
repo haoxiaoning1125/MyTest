@@ -23,9 +23,9 @@ def word_break(s, word_dict):
     for i in range(sl):
         for j in range(i + 1, sl + 1):
             if res[i] and s[i: j] in word_dict:
-                res[j] = True
                 if j == sl:
                     return True
+                res[j] = True
     return False
 
 
