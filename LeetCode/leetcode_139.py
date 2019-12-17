@@ -15,20 +15,27 @@ def word_break(s, word_dict):
     :type word_dict: List[str]
     :rtype: bool
     """
-    # if len(s) == 0 or not word_dict:
-    #     return False
+    if not s or not word_dict:
+        return False
     word_dict = set(word_dict)
-    res = [True] + [False for _ in range(len(s))]
+    res = [True] + [False for i in range(len(s))]
     sl = len(s)
+    maxlen = max([len(w) for w in word_dict])
     for i in range(sl):
         for j in range(i + 1, sl + 1):
+            if j - i > maxlen:
+                break
+            print i, j, s[i: j]
             if res[i] and s[i: j] in word_dict:
+                res[j] = True
                 if j == sl:
                     return True
-                res[j] = True
     return False
 
 
 if __name__ == '__main__':
-    print word_break('catdogod', ['cat', 'dog', 'god'])
-    print word_break('catdogod', ['cat', 'dog', 'od'])
+    # print word_break('catdogod', ['cat', 'dog', 'god'])
+    # print word_break('catdogod', ['cat', 'dog', 'od'])
+    # print word_break('leetcode', ['leet', 'code'])
+    # print word_break('aaaaaaa', ['aaaa', 'aaa'])
+    print word_break('aaabbccccccccc', ['aaa', 'bb'])
