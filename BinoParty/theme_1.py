@@ -3,7 +3,7 @@
 import random
 from pylab import plt
 
-RANDOM_Y_ORP = 0.12  # 出 y - 1 的概率
+RANDOM_Y_PRO = 0.12  # 出 y - 1 的概率
 
 
 def get_rand_arr():
@@ -13,7 +13,7 @@ def get_rand_arr():
 
 
 def get_random_y(y):
-    if random.random() > RANDOM_Y_ORP:
+    if random.random() > RANDOM_Y_PRO:
         return y
     return y - 1
 
