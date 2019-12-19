@@ -6,6 +6,12 @@ from pylab import plt
 RANDOM_Y_PRO = 0.12  # 出 y - 1 的概率
 
 
+def is_bingo(bingo_map):
+    if bingo_map != [-1 for _ in range(25)]:
+        return False
+    return True
+
+
 def get_rand_arr():
     a = [i for i in range(25)]
     random.shuffle(a)
@@ -46,12 +52,6 @@ def boom_2(bingo_map, y, z):
     for index in indexs:
         boom_1(bingo_map, index, y)
     # print bingo_map
-
-
-def is_bingo(bingo_map):
-    if bingo_map != [-1 for _ in range(25)]:
-        return False
-    return True
 
 
 def one_play(ret_dic, x, y, z):
