@@ -9,3 +9,5 @@ for item in items:
     if re.match('choice_sale_', x):
         print item
 
+# christmas_more = CHRISTMAS_SHOP_MORE.get(x['price'], 0)
+#             realcount = int(math.ceil(math.ceil(float(realcount) / 10) * (1 + christmas_more)) * 10)
