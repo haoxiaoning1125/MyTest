@@ -9,7 +9,7 @@ def binary_search(arr, value):
     high = len(arr)
     while low <= high:
         # print '1111'
-        middle = int((high - low) / 2) + low
+        middle = low + ((high - low) >> 1)  # 位运算符优先级低于算术运算符
         if arr[middle] == value:
             return middle
         elif arr[middle] < value:
