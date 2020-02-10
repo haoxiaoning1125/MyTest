@@ -3,7 +3,6 @@
 
 import random
 import pylab as pl
-from tqdm import tqdm
 from time import sleep
 
 
@@ -69,7 +68,7 @@ def one_play(bingo_count):
 
 if __name__ == '__main__':
     bingo_count = [0 for i in range(23)]
-    for i in tqdm(range(10000)):
+    for i in range(10000):
         one_play(bingo_count)
 
     sleep(0.2)
