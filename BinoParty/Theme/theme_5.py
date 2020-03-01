@@ -33,13 +33,12 @@ def one_play(bingo_count):
 
 
 def get_socre(three):
-    score = 0
     three = sorted(three)
     if three[2] - three[1] == three[1] - three[0] == 1:
-        score += X
+        return X
     if three[0] == three[1] == three[2]:
-        score += Y
-    return score + sum(three)
+        return Y
+    return sum(three)
 
 
 def random_dice_num():
