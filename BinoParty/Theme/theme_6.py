@@ -10,13 +10,9 @@ import random
 J = 0.1  # 罐子
 X = 0.7  # 三叶草
 Y = 0.1  # 四叶草
-K = 5
-N = 3
-Z = 8
-PRO_1 = [J, J + X, J + X + Y, 1.0]  # 正常
-PRO_2 = [J, J + X + Y, J + X + Y, 1.0]  # 四叶草满
-PRO_3 = [0, J + X, J + X + Y, 1.0]  # 罐子满
-PRO_4 = [0, J + X + Y, J + X + Y, 1.0]  # 四叶草，罐子满
+K = 5  # 罐子最多出现次数
+N = 2  # 四叶草最多出现次数
+Z = 8  # bingo所需金币
 
 
 def get_rand_arr():
@@ -27,20 +23,10 @@ def get_rand_arr():
     return arr
 
 
-def random_mark_result(jug, clover):
+def random_mark_result(pro):
     """
     :return: 0: 罐子, 1: 三叶草, 2: 四叶草, 3: 空
     """
-    if jug < K:
-        if clover < N:
-            pro = PRO_1
-        else:
-            pro = PRO_2
-    else:
-        if clover < N:
-            pro = PRO_3
-        else:
-            pro = PRO_4
     r = random.random()
     for index, num in enumerate(pro):
         if r < num:
@@ -58,10 +44,29 @@ def check_jug_around(bingo_map, x, y):
 
 def one_mark(bingo_map, x, y, mark_count):
     jug, clover = mark_count
-    if jug < K and not check_jug_around(bingo_map, x, y):
-        mark_result = 0
+    # mark_result: {0: 罐子, 1: 三叶草, 2: 四叶草, 3: 空}
+    if jug < K:
+        if not check_jug_around(bingo_map, x, y):
+            mark_result = 0
+        else:
+            if clover < N:
+                pro = [0.1, 0.8, 0.9, 1.0]
+            else:
+                pro = [0.1, 0.9, 0.9, 1.0]
+            mark_result = random_mark_result(pro)
     else:
-        mark_result = random_mark_result(jug, clover)
+        if not check_jug_around(bingo_map, x, y):
+            if clover < N:
+                pro = [0.0, 0.0, 0.1, 1.0]
+                mark_result = random_mark_result(pro)
+            else:
+                mark_result = 3
+        else:
+            if clover < N:
+                pro = [0.0, 0.7, 0.8, 1.0]
+            else:
+                pro = [0.0, 0.8, 0.8, 1.0]
+            mark_result = random_mark_result(pro)
 
     # 修改bingo_map, 检查能量溢出
     ret = 0
