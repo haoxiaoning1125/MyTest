@@ -18,7 +18,8 @@ class Bug(object):
     def __str__(self):
         return 'a bug'
 
-    def action(self):
+    @staticmethod
+    def action():
         return 'eats it'
 
 
@@ -39,7 +40,8 @@ class Ork(object):
     def __str__(self):
         return 'an evil ork'
 
-    def action(self):
+    @staticmethod
+    def action():
         return 'kills it'
 
 
@@ -53,7 +55,8 @@ class FrogWorld(object):
     def make_character(self):
         return Frog(self.player_name)
 
-    def make_obstacle(self):
+    @staticmethod
+    def make_obstacle():
         return Bug()
 
 
@@ -67,7 +70,8 @@ class WizardWorld(object):
     def make_character(self):
         return Wizard(self.player_name)
 
-    def make_obstacle(self):
+    @staticmethod
+    def make_obstacle():
         return Ork()
 
 
