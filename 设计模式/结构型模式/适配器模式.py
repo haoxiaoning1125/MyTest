@@ -41,12 +41,12 @@ class Adapter:
     """适配器类"""
     def __init__(self, obj, **adapted_methods):
         self.obj = obj
-        self.__dict__.update(adapted_methods)
+        self.update_dict(**adapted_methods)
 
     def __str__(self):
         return str(self.obj)
 
-    def update(self, **adapted_methods):
+    def update_dict(self, **adapted_methods):
         self.__dict__.update(adapted_methods)
 
 
@@ -70,8 +70,8 @@ if __name__ == '__main__':
     print '-' * 20
 
     # 在适配器中添加对name属性的访问后, 报错消失
-    objects[1].update(name=syn.name)
-    objects[2].update(name=human.name)
+    objects[1].update_dict(name=syn.name)
+    objects[2].update_dict(name=human.name)
 
     for ob in objects:
         print ob.name
