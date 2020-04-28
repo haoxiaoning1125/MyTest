@@ -1,54 +1,56 @@
 # coding=utf-8
-# 观察者模式:
-# 定义对象间的一对多依赖关系, 当一个对象的状态发生变化时, 所有依赖于它的对象得到通知并做出相应操作
-# 又称: 发布/订阅, 消息通知机制, 事件监听, 事件驱动编程
-# 例: 生成订单的同时发送短信和微信
 
 
-class Order(object):
-    def __init__(self, id):
-        self.id = id
+class Publisher:
+    def __init__(self, name, data):
         self.observers = []
+        self.name = name
+        self.data = data
 
-    def append_observer(self, observer):
-        self.observers.append(observer)
+    def __str__(self):
+        return '{} has data {}'.format(self.name, self.data)
 
-    def remove_observer(self, observer):
-        self.observers.remove(observer)
+    def add(self, observer):
+        if observer not in self.observers:
+            self.observers.append(observer)
+        else:
+            print 'failed to append {}'.format(observer)
 
-    def modify(self):
-        for observer in self.observers:
-            observer.update(self.id)
+    def remove(self, observer):
+        try:
+            self.observers.remove(observer)
+        except ValueError:
+            print 'failed to remove {}'.format(observer)
 
-
-class Observer(object):
-    def update(self, order_id):
-        pass
-
-
-class OrderObserver(Observer):
-    def update(self, order_id):
-        print '订单{}, 处理数据.'.format(order_id)
-
-
-class MessageObserver(Observer):
-    def update(self, order_id):
-        print '订单{}, 发送短信.'.format(order_id)
+    def notify(self):
+        for o in self.observers:
+            o.notify(self.name, self.data)
 
 
-class WeChatObserver(Observer):
-    def update(self, order_id):
-        print '订单{}, 发送微信.'.format(order_id)
+class HexFormatter:
+    def __init__(self, name):
+        self.name = name
+
+    def notify(self, publisher_name, data):
+        print '{}: {} has now hex data {}'.\
+            format(self.name, publisher_name, hex(data))
+
+
+class BinaryFormatter:
+    def __init__(self, name):
+        self.name = name
+
+    def notify(self, publisher_name, data):
+        print '{}: {} has now bin data {}'.\
+            format(self.name, publisher_name, bin(data))
 
 
 if __name__ == '__main__':
-    new_order1 = Order(1)
-    order_observer = OrderObserver()
-    message_observer = MessageObserver()
-    wechat_observer = WeChatObserver()
+    publisher = Publisher('publisher', 100)
+    print publisher
 
-    new_order1.append_observer(order_observer)
-    new_order1.append_observer(message_observer)
-    new_order1.append_observer(wechat_observer)
-
-    new_order1.modify()
+    hf = HexFormatter('hex_formatter')
+    bf = BinaryFormatter('binary_formatter')
+    publisher.add(hf)
+    publisher.add(bf)
+    publisher.notify()
