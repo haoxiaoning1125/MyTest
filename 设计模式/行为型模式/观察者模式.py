@@ -48,9 +48,15 @@ class BinaryFormatter:
 if __name__ == '__main__':
     publisher = Publisher('publisher', 100)
     print publisher
+    print '-' * 20
 
     hf = HexFormatter('hex_formatter')
     bf = BinaryFormatter('binary_formatter')
     publisher.add(hf)
     publisher.add(bf)
     publisher.notify()
+    print '-' * 20
+
+    publisher.remove(hf)
+    publisher.notify()
+
