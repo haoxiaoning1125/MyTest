@@ -1,5 +1,5 @@
 # coding=utf-8
-from Decorator.decorator import time_of_
+from 装饰器.decorator import time_of_
 
 
 def first_have_n_digit(n):

@@ -2,6 +2,7 @@
 
 import random
 import pylab as pl
+# from pprint import pprint
 
 
 def bfs(start, bingo_map, holes):  # start: [x, y], holes:[[x, y],]已标记窟窿坐标
@@ -35,19 +36,50 @@ def get_rand_arr():
     return arr
 
 
+def get_rand_arr2():
+    arr = [
+        [i, j] for i in range(5) for j in range(5)
+    ]
+    arr.remove([0, 0])
+    arr.remove([0, 1])
+    arr.remove([4, 3])
+    arr.remove([4, 4])
+
+    random.shuffle(arr)
+    return arr
+
+
 def is_bingo(bingo_map, holes):
     vis = bfs([0, 0], bingo_map, holes)
     return vis[4][4]
 
 
+def random_map(bingo_map, hole_num, mountain_num):
+    arr = get_rand_arr2()
+    for i in range(hole_num):
+        x, y = random.choice(arr)
+        bingo_map[x][y] = 2
+        arr.remove([x, y])
+    for i in range(mountain_num):
+        x, y = random.choice(arr)
+        bingo_map[x][y] = 3
+        arr.remove([x, y])
+    return bingo_map
+
+
 def one_play(bingo_count):
     bingo_map = [  # 0: 未标记, 1: 已标记, 2: 未标记窟窿, 3: 冰山
-        [1, 0, 0, 3, 0],
-        [0, 2, 0, 2, 0],
-        [0, 3, 0, 0, 0],
-        [0, 0, 2, 0, 0],
+        [1, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0],
         [0, 0, 0, 0, 1],
     ]
+
+    hole_num = 3
+    mountain_num = 2
+    bingo_map = random_map(bingo_map, hole_num, mountain_num)
+    # pprint(bingo_map)
     holes = []
     balls = 0
     for x, y in get_rand_arr():

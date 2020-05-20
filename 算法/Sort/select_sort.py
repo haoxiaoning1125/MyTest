@@ -1,7 +1,7 @@
 # coding=utf-8
 
 import random
-from Decorator import time_of
+from 装饰器 import time_of
 
 
 @time_of(parastate=0)
