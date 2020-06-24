@@ -103,35 +103,26 @@ def one_play(bingo_count):
 
 
 if __name__ == '__main__':
-    # bingo_count = [0 for i in range(24)]
-    # for i in range(10000):
-    #     one_play(bingo_count)
-    # for i, n in enumerate(bingo_count):
-    #     print (i + 1, n)
-    #
-    # x = range(1, 25)
-    # y = bingo_count
-    # pl.plot(
-    #     x, y,
-    #     marker='o',
-    #     linestyle='--',
-    #     linewidth=2,
-    #     markerfacecolor='m',
-    #     color='b',
-    #     label='bingo-balls'
-    # )
-    # # pl.axis([0, 25, -1000, 11000])
-    # pl.legend(loc='upper left')
-    # pl.xlabel('balls')
-    # pl.ylabel('bingo')
-    # pl.title('FathersDay.')
-    # pl.show()
-    bingo_map = [  # 0, 1: 未标记, 2: 已标记, 3: 未标记玩具, 4: 已标记玩具
-        [0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0],
-        [0, 1, 1, 1, 0],
-        [0, 1, 2, 1, 0],
-    ]
-    print bingo_map
-    pprint(bingo_map)
+    bingo_count = [0 for i in range(24)]
+    for i in range(10000):
+        one_play(bingo_count)
+    for i, n in enumerate(bingo_count):
+        print (i + 1, n)
+
+    x = range(1, 25)
+    y = bingo_count
+    pl.plot(
+        x, y,
+        marker='o',
+        linestyle='--',
+        linewidth=2,
+        markerfacecolor='m',
+        color='b',
+        label='bingo-balls'
+    )
+    # pl.axis([0, 25, -1000, 11000])
+    pl.legend(loc='upper left')
+    pl.xlabel('balls')
+    pl.ylabel('bingo')
+    pl.title('FathersDay.')
+    pl.show()

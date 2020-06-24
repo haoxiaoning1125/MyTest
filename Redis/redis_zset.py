@@ -58,6 +58,13 @@ if __name__ == '__main__':
     print rc.zrange('z2', 0, -1, withscores=True)
     print rc.zremrangebyscore('z2', 200, 400)
     print rc.zrange('z2', 0, -1, withscores=True)
+    print DIVIDING
+
+    # aaa
+    print rc.zadd('z', {1083391: 101})
+    print rc.zrange('z', 0, -1, desc=True, withscores=True)
+    print rc.zrevrange('z', 0, -1)
+    print rc.zrevrank('z', 1083391)
 
     rc.flushdb()
     rc.close()
