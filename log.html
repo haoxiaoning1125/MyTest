@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <base href="/">
+        <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"> </script>
+        <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    </head>
+
+    <script>
+        $(document).ready(function(){
+            $('#show_log').click(function(){
+                data = {'uid': $('#uid').val()}
+                $.get('bingo_show_log_by_uid', data, function(result){
+                    $('#log_info').html(result);
+                });
+                $('#log_info').html(data['uid']);
+            });
+        });
+    </script>
+
+    <body>
+        <div>
+            <h5>show log by user id</h5>
+            uid<input id="uid" placeholder='233' style='width: 150px;'>
+            <input id="show_log" type="button" value="show">
+            <div id="log_info"> </div>
+        </div>
+    </body>
+</html>
